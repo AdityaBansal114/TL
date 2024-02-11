@@ -1,8 +1,9 @@
+import Navbar from "./Navbar"
 const Home=()=>{
     return(
-        <div>
-            Home
-        </div>
+        <>
+        <Navbar></Navbar>
+        </>
     )
 }
 export default Home
