@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Home from './Home';
 
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
   return (
 
 
-    <div className="flex h-20 bg-white shadow-2xl shadow-[#00000089]">
+    <div className="absolute top-0 left-0 w-full flex h-20 bg-white shadow-2xl shadow-[#00000089] z-50">
         <Link to="/"><img src="" alt="" /></Link>
         <ul className=" w-[85%] flex gap-14 items-center justify-center text-[]  " >
             <li className=' h-[100%] hover:text-sky-600  ease-in duration-50 group'>
@@ -25,7 +26,7 @@ function Navbar() {
                         <Link to="/ContactUs" className='flex items-center'>Contact Us</Link>
                         
                     </div>
-                    <div className='hidden h-[0.15rem] bg-sky-600 group-hover:block' ></div>  
+                    <div className='hidden h-[0.15rem] bg-sky-600 group-hover:block' ></div>
             </li>
 
             <li className=' h-[100%] hover:text-sky-600  ease-in duration-50 group'>
@@ -57,7 +58,7 @@ function Navbar() {
             </div>
         </Link>
 
-        <Link to="/Profile">
+        <Link to="./Profile">
             <div className='h-[100%] p-5 flex items-center justify-center'>
             <img src="./src/icons/user_png.png" className='h-5' />
             </div>
