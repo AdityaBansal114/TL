@@ -4,11 +4,12 @@ import navbar from './components/Navbar'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
 function App() {
 
   return (
     <>
-      <Home></Home>
+      {/* <Home></Home> */}
     </>
   )
 }
