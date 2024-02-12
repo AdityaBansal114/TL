@@ -1,8 +1,13 @@
+import Navbar from "./Navbar"
+import LandingSection1 from "./LandingSection1"
+
+
 const Home=()=>{
     return(
-        <div>
-            Home
-        </div>
+        <>
+        <Navbar></Navbar>
+        <LandingSection1></LandingSection1>
+        </>
     )
 }
 export default Home
