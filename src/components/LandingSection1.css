@@ -1,0 +1,109 @@
+
+.animate-Ani1{
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: Ani1;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+
+@keyframes Ani1{
+    0%{
+        translate: 0rem 0rem;
+    }
+    25%{
+        translate: 0rem 0.5rem;
+    }
+    50%{
+        translate: 0rem -0.5rem;
+        
+    }
+    75%{
+        translate: 0rem -0.4rem;
+
+    }
+    100%{
+        translate: 0rem 0.4rem;
+    }
+}
+
+
+
+.animate-Ani2{
+    animation-duration: 24s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: Ani2;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+
+@keyframes Ani2{
+    0%{
+        translate: 0rem 0rem;
+    }
+    25%{
+        translate: 0rem -0.5rem;
+    }
+    50%{
+        translate: 0rem 0.5rem;
+        
+    }
+    75%{
+        translate: 0rem 0.5rem;
+
+    }
+    100%{
+        translate: 0rem -0.5rem;
+    }
+}
+
+
+
+.animate-Ani3{
+    animation-duration: 18s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: Ani3;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+
+@keyframes Ani3{
+    0%{
+        translate: 0rem 0rem;
+    }
+    25%{
+        translate: 0rem 0.7rem;
+    }
+    50%{
+        translate: 0rem -0.7rem;
+        
+    }
+    75%{
+        translate: 0rem -0.5rem;
+
+    }
+    100%{
+        translate: 0rem 0.5rem;
+    }
+}
