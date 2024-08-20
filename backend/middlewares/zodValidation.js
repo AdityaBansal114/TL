@@ -1,4 +1,4 @@
-import {LoginSchemaZod, requestMailSchemaZod, resetPawwsordSchemaZod, SignupSchemaZod} from "../zod/authmodels.js"
+import {LoginSchemaZod, requestMailSchemaZod, resetPasswordSchemaZod, SignupSchemaZod} from "../zod/authmodels.js"
 import {z} from 'zod'
 import { sendMessageZodSchemaStudent , sendMessageZodSchemaInstructor} from "../zod/sendMessageModels.js";
 
@@ -67,7 +67,7 @@ export const requestMailValidation= (req,res,next)=>{
 export const resetPassValidation= (req,res,next)=>{
     try {
 
-        const valid= resetPawwsordSchemaZod.safeParse(req.body);
+        const valid= resetPasswordSchemaZod.safeParse(req.body);
         if(valid.success===true){
             next();
         }

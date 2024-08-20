@@ -21,7 +21,7 @@ export const requestMailSchemaZod = z.object({
   email: z.string().email(),
 })
 
-export const resetPawwsordSchemaZod= z.object({
+export const resetPasswordSchemaZod= z.object({
     Id: z.string(),
     // email: z.string().email(),
     token: z.string(),
