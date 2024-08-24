@@ -24,7 +24,7 @@ const reqestMail= async(req,res)=>{
         service: 'gmail',
         auth: {
           user: `${process.env.MAIL}`,
-          pass: `${process.nextTick.MAIL_PASS}`
+          pass: `${process.env.MAIL_PASS}`
         }
       });
       
